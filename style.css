@@ -1,0 +1,114 @@
+	.ooo{
+		text-align: center ;
+		clear:none;
+		font-family:georgia;
+		font-size:250%;
+	}
+	.cap1{
+		width:100%;
+		background-image:url(files/image.jpg);
+	}
+	body{
+		margin: 0 20%;
+		font-family: helvetica;
+		
+		background-color: white;
+		
+	}
+	nav{
+		border-top: 3px solid #57b1dc;
+		padding-top: 1px;
+		overflow:hidden;
+		width:100%;
+		background-color: #cccccc;
+		}
+	nav ul{
+		list-style:none;
+		padding:0;
+		margin:0 auto;
+		width:31em;
+	}
+	nav ul li{
+		float:left;
+		
+	}
+	nav ul li a{
+		display:block;
+		padding:.5em;
+		border: 1px solid #ba89a8;
+		border-radius: .5em;
+		background-color: #afd1d4;
+		margin: .25em;
+		color:#000;
+		text-decoration:none;
+		}
+	nav ul a:focus{
+		color:#faa;
+		border-color: #000;
+		}
+	nav ul a:hover{
+		color:#f44;
+		border-color:#000;
+	}
+	section{
+		clear:both;
+		overflow:hidden;
+		border: 1px groove #000000;
+		border-bottom-left-radius: 10px;
+		border-bottom-right-radius: 10px;
+		padding: 10px;
+		margin-top: 0px;
+		margin-bottom: 10px;
+		background-color: #faf2e4;
+		}
+	h1{	
+		text-align: center;
+		font-family: serif;
+		font-weight: normal;
+		text-transform: uppercase;
+		
+		margin-top: 30px;
+	}
+	h2{
+		color: #d1633c;
+		font-size: 1em;
+	}
+  footer{
+		text-align: center;
+        font-family: helvetica;
+        color: #b2b2b2;
+  }
+  address{
+		width: 30em;
+		text-align: justify;
+		color: #000000;
+		font-family: helvetica;
+		border: 5px double maroon;
+		border-radius: 10px;
+		padding: 5px;
+    
+    
+  }
+      .logo{
+		float:left;
+		/*border: 1px groove #000000;*/
+		border-top: 1px groove #000000;
+		border-left: 1px groove #000000;
+		border-right: 1px groove #000000;
+        width: 111px;
+        
+      }
+    .text1{
+		font-family: georgia;
+    }
+    .telmail{
+		float:right;
+		margin:10px;
+		width: 200px;
+		color: #000;
+		border: 1px groove #000;
+		padding:3px;	
+		border-radius:10px;
+		background-color: #fff;
+		
+    }
